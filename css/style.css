@@ -1,0 +1,228 @@
+.wrapper{
+    width: 1530px;
+    height: 1900px;
+    text-align: center;
+}
+
+#gallery {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gallery .photos {
+    position: relative;
+    height: 440px;
+    z-index: 1;
+}
+
+#gallery .photos img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+#gallery .photos img.showed {
+    opacity: 1;
+}
+
+.buttons{
+    position: relative;
+    z-index: 4;
+    top: 250px;
+    text-align: center;
+}
+
+.one:hover{opacity: 0.5;}
+.two:hover{opacity: 0.5;}
+.three:hover{opacity: 0.5;}
+.four:hover{opacity: 0.5;}
+
+.overlay{
+    position: absolute;
+    z-index: 3;
+    width: 1530px;
+    height: 840px;
+    opacity: 0.5;
+    background-image: url(overlay.png);
+    background-repeat: no-repeat;
+}
+
+.wrapper-sm{
+    position:relative;
+    text-align: center;
+    padding: 20px 180px;
+    top: -460px;
+    width: 1530px;
+    height: 1900px;
+    z-index: 3;
+}
+
+.logo{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url(logo.png);
+}
+
+.menu{
+    position: relative;
+    margin-top: 35px;
+    left: 490px;
+    z-index: 4;
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-image: url(menu.png);
+}
+
+.collection{
+    position: absolute;
+    left: 400px;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    top: 310px;
+    background-repeat: no-repeat;
+    background-image: url(collection.png);
+}
+
+.button{
+    position: absolute;
+    left: 660px;
+    z-index: 3;
+    width: 200px;
+    height: 60px;
+    top: 550px;
+    background-repeat: no-repeat;
+    background-image: url(button.png);
+    margin: 0 auto;
+    display: block;
+}
+
+.button:hover{
+    background-image: url(button2.png);
+}
+
+.trend{
+    position: relative;
+    z-index: 1;
+    width: 1540px;
+    height: 1060px;
+    top: 490px;
+    left: -180px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(trend.png);
+    overflow: hidden;
+}
+
+.right{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 300px;
+    top: 825px;
+    left: 180px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(right.png);
+}
+
+#background{
+    position: absolute;
+    z-index: 4;
+    width: 600px;
+    height: 600px;
+    top: 200px;
+    left: 160px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(background.png);
+}
+
+.item{
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    height: 400px;
+    top: -70px;
+    left: 790px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-image: url(item.png);
+}
+
+.footer{
+    position: relative;
+    margin: auto;
+    z-index: 3;
+    width: 100px;
+    height: 400px;
+    top: -510px;
+    background-repeat: no-repeat;
+    background-image: url(footer.png);
+}
+
+.size-button{
+    list-style: none;
+}
+
+.sizes{
+    position: absolute;
+    top: 625px;
+    left: 750px;
+    z-index: 3;
+}
+
+.sizes .size-button li{
+    display: inline;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    padding: 20px 30px;
+    margin-right: 20px;
+}
+
+.sizes .size-button li:hover{
+    background-image: url(bg.png);
+}
+
+.backImage{
+    background-image: url(bg.png);
+}
+
+.backImageNo{
+    background-image: none;
+}
+
+.mPic, .xlPic, .xxlPic{
+    display: none;
+}
+
+.lPic{
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.activeSize{
+    display: block;
+    margin: auto;
+    margin-top: 25%;
+}
+
+.passiveSize{
+    display: none;
+}
+
+.sale:hover{
+    color: red;
+}
+
+
+
